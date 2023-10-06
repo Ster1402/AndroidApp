@@ -2,11 +2,10 @@ package com.sterdevs.diceroller.models
 
 import com.sterdevs.diceroller.R
 
-class Dice {
-    var currentFaceID : Int = 0
+class Dice(private val numberOfSides : Int = 6) {
 
-    fun roll() {
-        currentFaceID = pickRandomImageID()
+    fun roll() : Int {
+        return pickRandomImageID()
     }
 
     private fun pickRandomImageID() : Int {

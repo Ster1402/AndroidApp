@@ -26,8 +26,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun rollDice() {
-        dice.roll()
-        diceImage.setImageResource( dice.currentFaceID )
+        val imageId = dice.roll()
+        diceImage.setImageResource( imageId )
         Toast
             .makeText(
                 applicationContext,
