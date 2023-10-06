@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">DiceRoller</string>
+    <string name="app_title">Roll the Dice !</string>
+    <string name="button_text">Roll 🔥</string>
+    <string name="dice_description">Dice random number</string>
+    <string name="logo_sterdevs_text">By SterDevs</string>
 </resources>
