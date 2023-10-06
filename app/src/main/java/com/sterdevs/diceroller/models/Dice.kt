@@ -2,7 +2,7 @@ package com.sterdevs.diceroller.models
 
 import com.sterdevs.diceroller.R
 
-class Dice(private val numberOfSides : Int = 6) {
+class Dice {
 
     fun roll() : Int {
         return pickRandomImageID()
